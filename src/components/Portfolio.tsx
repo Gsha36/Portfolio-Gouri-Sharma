@@ -414,7 +414,7 @@ const Portfolio = () => {
               <div className="relative">
                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-3xl overflow-hidden shadow-strong">
                   <img 
-                    src="public\me.jpg" 
+                    src="/me.jpg" 
                     alt="Gouri Sharma - About Me"
                     className="w-full h-full object-cover"
                   />
