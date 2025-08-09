@@ -644,15 +644,6 @@ const Portfolio = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-center space-x-4 p-6 bg-white/10 backdrop-blur-sm rounded-2xl shadow-soft border border-orange-400/20">
-                  <div className="w-12 h-12 bg-orange-500/20 rounded-xl flex items-center justify-center border border-orange-400/30">
-                    <Phone className="w-6 h-6 text-orange-400" />
-                  </div>
-                  <div>
-                    <p className="text-gray-300 text-sm">Phone</p>
-                    <p className="text-white font-semibold">+91 9319001421</p>
-                  </div>
-                </div>
                 
                 <div className="flex items-center space-x-4 p-6 bg-white/10 backdrop-blur-sm rounded-2xl shadow-soft border border-orange-400/20">
                   <div className="w-12 h-12 bg-orange-500/20 rounded-xl flex items-center justify-center border border-orange-400/30">
