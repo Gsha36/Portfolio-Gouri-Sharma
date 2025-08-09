@@ -331,7 +331,7 @@ const Portfolio = () => {
                 
                 <div className="flex flex-col sm:flex-row gap-4 pt-4 md:pt-6">
                   <a 
-                    href="public\Gouri Sharma-Resume.pdf" 
+                    href="/Gouri Sharma-Resume.pdf" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white px-6 py-3 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl flex items-center justify-center space-x-2 border border-orange-400/30"
