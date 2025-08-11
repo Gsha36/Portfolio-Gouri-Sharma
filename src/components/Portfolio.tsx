@@ -105,16 +105,18 @@ const Portfolio = () => {
 
   const projects = [
     {
-      name: "Scanned PDF to BRF",
-      description: "A comprehensive web application designed to convert scanned PDF documents into Braille-ready files, enhancing accessibility for visually impaired users.",
-      longDescription: "This project addresses a critical accessibility gap by automating the conversion of printed materials to Braille format. The application uses Tesseract OCR for accurate text recognition, implements deep learning models for intelligent image analysis, and provides seamless translation services.",
-      tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Tesseract OCR", "Deep Learning Models", "Translation APIs", "RESTful APIs"],
+      name: "BrailleBEE | DELL Technologies Hackathon",
+      description: "A user-friendly solution that extracts and processes text and images from scanned academic textbooks, converting them into Braille-ready format with contextual descriptions for visually challenged students.",
+      longDescription: "Built for the DELL Technologies Hackathon, BrailleBEE addresses digital inclusivity by providing a comprehensive solution for converting academic materials to Braille format. The platform implements robust WebApp architecture with advanced security features and WCAG compliance for accessibility.",
+      tech: ["MERN Stack", "Layout Parser", "Tesseract OCR", "Hugging Face", "OpenCV", "Salesforce IMC", "Node.js", "Python", "Bcrypt Security"],
       features: [
-        "Advanced OCR text extraction with 95%+ accuracy",
-        "AI-powered image captioning for visual content",
-        "Multi-language support and translation",
-        "Batch processing capabilities",
-        "Real-time conversion status tracking"
+        "Multiple PDF uploads and batch processing support",
+        "Multilingual capabilities for diverse academic content",
+        "Berypt security implementation for data protection",
+        "WCAG compliance for digital inclusivity",
+        "30-second processing time for 10-page PDFs",
+        "Download and viewing options for generated documents",
+        "Contextual descriptions for images and visual content"
       ],
       github: "https://github.com/Gsha36/Image-to-BRF",
       demo: "#"
@@ -157,14 +159,14 @@ const Portfolio = () => {
       company: "Dell Technologies",
       location: "Bengaluru",
       duration: "May 2025 - July 2025",
-      description: "Spearheaded the re-architecture of core components in Agentic SRE project, implementing cutting-edge technologies including Model Context Protocol (MCP) and LangGraph-based agent framework.",
+      description: "Re-architected core components of an agentic SRE system using a LangGraph-based agent framework, creating ReAct agents for autonomous decision-making and implementing Model Context Protocol (MCP) servers for seamless agent-environment interaction.",
       achievements: [
-        "Re-architected core components using MCP and Re-Act agents",
-        "Achieved 45% increase in system throughput through optimization",
-        "Built scalable Angular frontend enhancements improving load times by 30%",
+        "Re-architected core components using LangGraph-based agent framework with ReAct agents for autonomous decision-making, boosting system throughput by 45%",
+        "Set up and configured Model Context Protocol (MCP) servers with tools for seamless agent-environment interaction",
+        "Built scalable frontend enhancements using AngularJS, optimizing component rendering to boost responsiveness and usability for internal enterprise tools",
         "Collaborated with cross-functional teams on enterprise-level solutions"
       ],
-      skills: ["Angular", "LangGraph", "MCP", "System Architecture", "SRE", "Performance Optimization"]
+      skills: ["AngularJS", "LangGraph", "MCP", "ReAct Agents", "System Architecture", "Performance Optimization", "Generative AI", "Python"]
     },
     {
       role: "MERN Developer",
